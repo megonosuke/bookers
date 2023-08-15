@@ -6,9 +6,9 @@
   <span><%= book.title %></span>
   <h4>Body</h4>
   <span><%= book.body %></span>
-  <a href="/show">Show</a>
-  <a href="/edit">Edit</a>
-  <a href="/destroy" "data-confirm" = "Are you sure?" >Destroy</a>
+  <a href="/show/books/:id">Show</a>
+  <a href='/books/:id/edit'>Edit</a>
+  <a href="/books/:id" "data-confirm" = "Are you sure?" >Destroy</a>
 <% end %>
 
 
